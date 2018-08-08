@@ -1,0 +1,14 @@
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\bin\Debug\netcoreapp2.1\signalAPP-Backend.deps.json
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\bin\Debug\netcoreapp2.1\signalAPP-Backend.runtimeconfig.json
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\bin\Debug\netcoreapp2.1\signalAPP-Backend.runtimeconfig.dev.json
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\bin\Debug\netcoreapp2.1\signalAPP-Backend.dll
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\bin\Debug\netcoreapp2.1\signalAPP-Backend.pdb
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\obj\Debug\netcoreapp2.1\signalAPP-Backend.csprojAssemblyReference.cache
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\obj\Debug\netcoreapp2.1\signalAPP-Backend.csproj.CoreCompileInputs.cache
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\obj\Debug\netcoreapp2.1\signalAPP-Backend.RazorAssemblyInfo.cache
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\obj\Debug\netcoreapp2.1\signalAPP-Backend.RazorAssemblyInfo.cs
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\obj\Debug\netcoreapp2.1\signalAPP-Backend.AssemblyInfoInputs.cache
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\obj\Debug\netcoreapp2.1\signalAPP-Backend.AssemblyInfo.cs
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\obj\Debug\netcoreapp2.1\signalAPP-Backend.RazorTargetAssemblyInfo.cache
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\obj\Debug\netcoreapp2.1\signalAPP-Backend.dll
+C:\Users\joaov\Desktop\gitFaculdade\signalAPP-Backend\obj\Debug\netcoreapp2.1\signalAPP-Backend.pdb
