@@ -24,20 +24,17 @@ namespace signalAPP_Backend
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
-            {
-                builder.AllowAnyOrigin()
-                    .AllowAnyMethod()
-                    .AllowAnyHeader()
-                    .AllowCredentials();
-            }));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddSignalR();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);     
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            app.UseCors("MyPolicy");
+            app.UseCors(
+               builder => builder.AllowAnyOrigin()
+                   .AllowAnyHeader()
+                   .AllowAnyMethod()
+                   .AllowCredentials());
 
             if (env.IsDevelopment())
             {
@@ -49,12 +46,13 @@ namespace signalAPP_Backend
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
-
-             app.UseSignalR(routes =>
+            
+            app.UseSignalR(routes =>
             {
-                routes.MapHub<ChatHub>("Hubs/ChatHub");
+                routes.MapHub<ChatHub>("/signal/chat");
             });
+
+            app.UseMvc();
         }
     }
 }
